@@ -54,21 +54,13 @@ const ContactForm = ({
               onChange={onChange}
               required
             >
+              {" "}
               <option value="">اختر الخدمة...</option>
-              {services.length > 0 ? (
-                services.map((service, index) => (
-                  <option key={index} value={service}>
-                    {service}
-                  </option>
-                ))
-              ) : (
-                <>
-                  <option value="طب اسنان طارئ">طب أسنان طارئ</option>
-                  <option value="تنظيف وتبيض">تنظيف وتبييض</option>
-                  <option value="زراعة اسنان">زراعة الأسنان</option>
-                  <option value="تقويم اسنان">تقويم الأسنان</option>
-                </>
-              )}
+              {services.map((service, index) => (
+                <option key={index} value={service}>
+                  {service}
+                </option>
+              ))}
             </Form.Select>
           </Form.Group>
 
