@@ -1,0 +1,176 @@
+.admin-page {
+  padding: 120px 0 50px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.admin-header {
+  margin-bottom: 40px;
+}
+
+.admin-header h1 {
+  color: #0d3b66;
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.admin-header p {
+  color: #777;
+  font-size: 16px;
+}
+
+.stat-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-icon {
+  font-size: 40px;
+  color: #0d3b66;
+  margin-bottom: 15px;
+}
+
+.stat-icon.pending {
+  color: #f27a54;
+}
+
+.stat-icon.success {
+  color: #25d366;
+}
+
+.stat-card h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stat-card p {
+  color: #777;
+  margin: 0;
+}
+
+.table-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.section-title {
+  color: #0d3b66;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table thead th {
+  background: #f8f9fa;
+  color: #0d3b66;
+  font-weight: 700;
+  border: none;
+  padding: 15px;
+}
+
+.table tbody td {
+  padding: 15px;
+  vertical-align: middle;
+  border-color: #f0f0f0;
+}
+
+.table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 20px 20px 0;
+}
+
+.modal-title {
+  color: #0d3b66;
+  font-weight: 700;
+}
+
+.modal-body .form-label {
+  font-weight: 700;
+  color: #444;
+}
+
+.modal-body .form-control,
+.modal-body .form-select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.modal-body .form-control:focus,
+.modal-body .form-select:focus {
+  border-color: #0d3b66;
+  box-shadow: none;
+}
+
+/* Mobile Cards */
+.mobile-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.appointment-mobile-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.mobile-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mobile-card-header h5 {
+  margin: 0;
+  color: #0d3b66;
+  font-weight: 700;
+}
+
+.mobile-card-body p {
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+.mobile-card-body strong {
+  color: #333;
+}
+
+.scheduled-info {
+  background: #e8f5e9;
+  padding: 10px;
+  border-radius: 10px;
+  color: #2e7d32;
+}
+
+.mobile-card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.mobile-card-actions .btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

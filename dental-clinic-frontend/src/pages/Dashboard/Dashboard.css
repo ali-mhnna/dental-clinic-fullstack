@@ -1,0 +1,151 @@
+.dashboard-page {
+  padding: 120px 0 50px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  color: #0d3b66;
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  color: #777;
+  font-size: 16px;
+}
+
+.stat-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.stat-icon {
+  font-size: 40px;
+  color: #0d3b66;
+  margin-bottom: 15px;
+}
+
+.stat-icon.pending {
+  color: #f27a54;
+}
+
+.stat-icon.notifications {
+  color: #25d366;
+}
+
+.stat-card h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stat-card p {
+  color: #777;
+  margin: 0;
+}
+
+.section-title {
+  color: #0d3b66;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.appointment-card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  transition: 0.3s;
+}
+
+.appointment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.appointment-header h4 {
+  color: #0d3b66;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+
+.appointment-message {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.appointment-details {
+  color: #999;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.appointment-scheduled {
+  background: #e8f5e9;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.admin-notes {
+  background: #fff3e0;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.admin-notes strong {
+  color: #e65100;
+  font-size: 14px;
+}
+
+.admin-notes p {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.empty-card {
+  border: none;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.empty-icon {
+  font-size: 60px;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.empty-card p {
+  color: #999;
+  font-size: 18px;
+  margin: 0;
+}

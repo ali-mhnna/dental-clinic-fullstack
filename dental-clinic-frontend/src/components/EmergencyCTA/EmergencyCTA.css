@@ -1,0 +1,71 @@
+.emergency-cta {
+  padding: 60px 0;
+  background-color: #fdfaf5;
+}
+
+.cta-card {
+  background-color: #0d3b66;
+  border-radius: 40px;
+  padding: 60px 40px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 20px 50px rgba(13, 59, 102, 0.15);
+}
+
+.cta-icon {
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cta-card h2 {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cta-card p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 700px;
+  margin: 0 auto 35px;
+}
+
+.btn-emergency-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #f27a54;
+  color: white;
+  text-decoration: none;
+  padding: 18px 45px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(242, 122, 84, 0.3);
+}
+
+.btn-emergency-call:hover {
+  transform: scale(1.05);
+  background-color: #e06945;
+  box-shadow: 0 15px 25px rgba(242, 122, 84, 0.4);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .emergency-cta {
+    padding: 40px 0;
+  }
+
+  .cta-card {
+    padding: 40px 20px;
+    border-radius: 30px;
+  }
+
+  .btn-emergency-call {
+    font-size: 18px;
+    padding: 15px 35px;
+  }
+}

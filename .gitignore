@@ -1,0 +1,11 @@
+# Ignore dependencies
+dental-clinic-frontend/node_modules/
+dental-clinic-backend/vendor/
+
+# Ignore environment variables
+dental-clinic-backend/.env
+dental-clinic-frontend/.env.local
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
