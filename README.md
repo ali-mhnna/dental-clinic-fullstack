@@ -79,7 +79,7 @@ npm install
 npm start
 
 -------------------------------------------------------
- هيكل المشروع | Project Structure
+    Project Structure
 
  dental-clinic/
 ├── dental-clinic-backend/    # Laravel API
@@ -113,6 +113,8 @@ User (مستخدم)
 استقبال الإشعارات
 
 Admin (أدمن)
+ 'email' => 'admin@dental.com'
+ 'password' => 'password'
 عرض جميع المواعيد
 تحديد مواعيد للمرضى
 حذف/تعديل المواعيد
